@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import cartoon from '../../assets/assets/Cartoon.png';
+import Cartoon from '../../assets/assets/Cartoon.png';
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header-content">
         {/* Left Side - Image */}
         <div className="header-image">
-          <img src={cartoon} alt="cartoon" />
+          <img src={Cartoon} alt="cartoon" />
         </div>
 
         {/* Right Side - Text + Button */}
