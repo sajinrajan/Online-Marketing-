@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import Contact from '../../assets/assets/Contact.jpg'
+import contact from '../../assets/assets/contact.jpg'
 
 const Contact = () => {
   return (
@@ -30,7 +30,7 @@ const Contact = () => {
 
       {/* Right image */}
       < div className="image-section">
-            <img src={Contact} alt="contact" />
+            <img src={contact} alt="contact" />
       </div>
     </div>
   )
