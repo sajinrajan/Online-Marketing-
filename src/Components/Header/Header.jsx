@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import cartoon from '../../assets/assets/cartoon.png';
+import cartoon from '../../assets/assets/Cartoon.png';
 
 const Header = () => {
   return (
