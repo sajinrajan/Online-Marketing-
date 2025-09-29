@@ -1,6 +1,6 @@
 import React from 'react';
 import './WebsiteDisplay.css';
-import kfc from '../../assets/assets/kfc.jpg';
+import KFC from '../../assets/assets/KFC.jpg';
 import BikeSite from '../../assets/assets/Bike Site.jpg';
 import CoffeeSite from '../../assets/assets/CoffeeSite.jpg';
 import Design from '../../assets/assets/Design.jpg';
@@ -18,7 +18,7 @@ const WebsiteDisplay = () => {
     <div className="website-display">
       <div className="image-add-section">
         <div className="add-section-text">
-          <img src={kfc} alt="" />
+          <img src={KFC} alt="" />
           <h2>KCF Chicken</h2>
           <p>“Crispy, juicy KFC chicken delivers unbeatable flavor in every bite.”</p>
         </div>
