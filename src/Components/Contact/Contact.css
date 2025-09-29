@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Wrapper */
+.contact {
+  display: flex;
+  width: 90%;
+  max-width: 1100px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  position: relative;
+  left: 100px;
+}
+
+/* Left form section */
+.form-section {
+  flex: 1;
+  padding: 50px 40px;
+  background: linear-gradient(to bottom, #acd6bd, #6be146);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-section h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.form-section p {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background: #f2f2f2;
+  font-size: 14px;
+}
+
+.form-section button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background: rgb(46, 176, 46);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-section button:hover {
+  background: rgb(36, 136, 36);
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-login button {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Right image section */
+.image-section {
+  flex: 1.2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image styling */
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* ✅ Responsive styles */
+@media (max-width: 1270px){
+      .contact{
+flex-direction: column;
+        width: 89%;
+        position: relative;
+        left: 62px;
+      }
+}
+@media (max-width: 900px) {
+  .contact {
+        flex-direction: column;
+        width: 89%;
+        position: relative;
+        left: 45px;
+  }
+
+  .form-section {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .image-section {
+    width: 90%;           /* shrink a bit to look neat */
+    height: 250px;
+    margin: 0 auto 20px;  /* center + spacing below */
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+
+}
+@media (max-width: 650px){
+      .contact{
+flex-direction: column;
+        width: 89%;
+        position: relative;
+        left: 31px;
+      }
+    }
+@media (max-width: 450px){
+      .contact{
+flex-direction: column;
+        width: 89%;
+        position: relative;
+        left: 20px;
+      }
+    }

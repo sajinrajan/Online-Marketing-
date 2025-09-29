@@ -1,0 +1,87 @@
+.website-display {
+  width: 100%;
+  min-height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive grid */
+  gap: 20px;
+  /* background-color: rgb(46, 176, 46); */
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+/* Each card */
+.image-add-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  border: 2px solid rgb(46, 176, 46);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.image-add-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.image-add-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.add-section-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.add-section-text p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+.image-add-section button{
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(46, 176, 46);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.image-add-section button:hover {
+  background-color: rgb(36, 136, 36);
+   border: 2px solid rgb(1, 1, 1);
+  color: rgb(15, 13, 13);
+   
+}
+/*  Responsive tweaks */
+@media (max-width: 768px) {
+  .add-section-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .add-section-text p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .website-display {
+    grid-template-columns: 1fr; /* stack cards on small screens */
+  }
+
+  .add-section-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .add-section-text p {
+    font-size: 0.9rem;
+  }
+}
