@@ -2,16 +2,16 @@ import React from 'react';
 import './WebsiteDisplay.css';
 import kfc from '../../assets/assets/kfc.jpg';
 import BikeSite from '../../assets/assets/Bike Site.jpg';
-import CoffeSite from '../../assets/assets/CoffeSite.jpg';
+import CoffeeSite from '../../assets/assets/CoffeeSite.jpg';
 import Design from '../../assets/assets/Design.jpg';
 import GardenSit from '../../assets/assets/GardenSit.jpg';
-import greenjus from '../../assets/assets/greenjus.jpg';
+import greenJuice  from '../../assets/assets/greenJuice.jpg';
 import shoosSit from '../../assets/assets/shoosSit.jpg';
-import SottilSit from '../../assets/assets/SottilSit.jpg';
+import Bottle from '../../assets/assets/Bottle.jpg';
 import las from '../../assets/assets/las.jpg';
 import ice from '../../assets/assets/ice.jpg';
 import house from '../../assets/assets/house.jpg';
-import traval from '../../assets/assets/traval.jpg';
+import Travel from '../../assets/assets/Travel.jpg';
 
 const WebsiteDisplay = () => {
   return (
@@ -37,7 +37,7 @@ const WebsiteDisplay = () => {
 
       <div className="image-add-section">
         <div className="add-section-text">
-          <img src={CoffeSite} alt="" />
+          <img src={CoffeeSite} alt="" />
           <h2>Coffee</h2>
           <p>Click here to add a new section to your website.</p>
         </div>
@@ -67,7 +67,7 @@ const WebsiteDisplay = () => {
 
       <div className="image-add-section">
         <div className="add-section-text">
-          <img src={greenjus} alt="" />
+          <img src={greenJuice} alt="" />
           <h2>Starbucks Mocha Frappuccino  ice cream.</h2>
           <p>Click here to add a new section to your website.</p>
         </div>
@@ -96,7 +96,7 @@ const WebsiteDisplay = () => {
       </div>
        <div className="image-add-section">
         <div className="add-section-text">
-          <img src={SottilSit} alt="" />
+          <img src={Bottle} alt="" />
           <h2>Bottle</h2>
           <p>Click here to add a new section to your website.</p>
         </div>
@@ -125,7 +125,7 @@ const WebsiteDisplay = () => {
 
       <div className="image-add-section">
         <div className="add-section-text">
-          <img src={traval} alt="" />
+          <img src={Travel} alt="" />
           <h2>Travel</h2>
           <p>Click here to add a new section to your website.</p>
         </div>
